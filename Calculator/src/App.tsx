@@ -1,8 +1,8 @@
 import './App.css'
-
+import MainContent from './MainContent'
 function App() {
   return (
-  <div className='bg-black h-screen'></div>
+  <div className='bg-black h-screen relative'><MainContent></MainContent></div>
   )
 }
 
